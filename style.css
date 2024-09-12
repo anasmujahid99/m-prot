@@ -1,0 +1,523 @@
+body{
+    background-color: #e5e5e5;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+nav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #2c3e4e;
+    margin:0% ;
+    padding: 0%;
+    box-sizing: border-box;
+
+ 
+}
+
+#nav-links{
+    width: 100%;
+    margin-left: 400px;
+}
+
+
+.nav-list{
+    padding-right: 4%;
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.About-Me{
+    background-color: #fffeff;
+    height: 450px;
+    width: 900px;
+    border-radius:10px ;
+    margin-top: 30px;
+    margin-left: 200px;
+    box-shadow: #2c3e4e;
+
+}
+#toggle-btn{
+    /* padding-left:20px ; */
+    margin-left: 800px;
+    background-color: #2c4b5f;
+    color: white;
+    border-radius: 20px;
+    box-shadow:white;
+    
+}
+@media (min-width:300px) and (max-width:500px){
+    #toggle-btn{
+        margin-left: 420px;
+        width: 90px;
+    }
+}
+
+
+
+  
+
+h1{
+    color: #2c4b5f;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.hr{
+    height: 2px;
+    width: 860px;
+    background-color: #53b29c;
+    justify-content: center;
+position: relative;
+left: 19px;
+}
+img{
+    height: 150px;
+    /* width: 150px; */
+    border: 1.5px solid #e5e5e5;
+    border-radius: 10px;
+    margin-left: 19px;
+    margin-top: 10px;
+    
+}
+#descprition{
+    text-align: justify;
+    margin-left: 19px;
+    margin-right: 19px;
+}
+
+/* projects */
+.projects{
+    background-color: #fffeff;
+    height: 320px;
+    width: 900px;
+    border-radius:10px ;
+    margin-top: 30px;
+    margin-left: 200px;
+    box-shadow: #2c3e4e;
+}
+table{
+margin-top: 10px;
+    margin-left: 19px;
+    width: 860px;
+    height: 180px;
+    border-collapse: collapse;
+
+
+}
+td{
+    padding: 10px; /* Adds space inside each cell */
+    border: 1px solid black;
+}
+.links{
+    text-decoration: none ;
+    color: #53b29c;
+}
+
+/* skills */
+.skills{
+    background-color: #fffeff;
+    height: 300px;
+    width: 900px;
+    border-radius:10px ;
+    margin-top: 30px;
+    margin-left: 200px;
+    box-shadow: #2c3e4e;
+}
+.sp{
+    
+    margin-left:19px ;
+}
+.skillsli{
+    list-style-type: none;
+    margin-left:19px ;
+    padding: 5px;
+
+
+}
+
+
+
+/* .experinces */
+
+.experinces{
+    background-color: #fffeff;
+    height: 400px;
+    width: 900px;
+    border-radius:10px ;
+    margin-top: 30px;
+    margin-left: 200px;
+    box-shadow: #2c3e4e;
+
+}
+.sp1{
+    
+    margin-left:19px ;
+    color: #53b29c  ;
+}
+
+.hp1{
+    color: #53b29c;
+    margin-left: 19px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.hp2{
+    /* color: #53b29c; */
+    /* margin-left: 19px; */
+    display: inline-block;
+    margin-top: 20px;
+}
+.hp3{
+    text-align: justify;
+    margin-left: 19px;
+    margin-right:19px;
+    margin-top: 0px;
+}
+/* contanct */
+
+.contact{
+    background-color: #fffeff;
+    height: 550px;
+    width: 900px;
+    border-radius:10px ;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+input{
+    height: 30px;
+    width: 855px;
+    margin-left: 19px;
+}
+.input{
+    margin-left: 19px;
+}
+textarea{
+    margin-left: 19px;
+    width: 858px;
+    height: 70px;
+}
+.button{
+    height: 50px;
+    width: 860px;
+    margin-left: 19px;
+    margin-top: 35px;
+    background-color: #53b29c;
+    border-radius: 5PX;
+    border: none;
+}
+
+/* footer */
+
+footer{
+    background-color: #2c3e4e;
+    height: 100px;
+    width: 100%;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    text-align: center;
+}
+.About-Me,
+.projects,
+.skills,
+.experinces,
+.contact {
+    background-color: #fffeff;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 200px;
+    box-shadow:  4px 8px rgba(0, 0, 0, 0.1);}
+
+/* navbar */
+@media (min-width:300px) and (max-width: 500px) {
+    .nav-bar {
+        width: 550px;
+       font-size: 12px;
+    }
+}
+/* hr */
+@media (min-width:300px) and (max-width:500px){
+    .hr{
+        width: 480px;
+    }
+}
+
+/* sections */
+
+/* .About-Me */
+@media (min-width:300px) and (max-width:500px) {
+    .About-Me{ width: 520px;
+        height: 370px;
+        margin-left: 15px;
+        font-size: 10px;
+
+    }
+}
+ /* projects  */
+@media (min-width:300px) and (max-width:500px){
+    .projects{
+        width: 520px;
+        height: 300px;
+        margin-left: 15px;
+        font-size: 10px;
+    }
+}
+
+@media (min-width:300px) and (max-width:500px){
+    .table{
+        width:480px ;
+    }
+}
+/* .skills */
+
+@media (min-width:300px) and (max-width:500px){
+    .skills {
+        width: 520px;
+        height: 230px;
+        margin-left: 15px;
+        font-size: 10px;
+    }
+}
+
+/* .experinces */
+
+@media (min-width:300px) and (max-width:500px){
+    .experinces{
+        width: 520px;
+        height: 330px;
+        margin-left: 15px;
+        font-size: 10px;
+    }
+}
+
+/* .contact */
+@media (min-width:300px) and  (max-width:500px){
+    .contact{
+        width: 520px;
+        height: 450px;
+        margin-left: 15px;
+        font-size: 10px;
+    }
+}
+
+@media (min-width:300px) and (max-width:500px){
+    input, textarea{
+        width: 475px;
+    }
+}
+
+@media (min-width:300px) and  (max-width:500px){
+    .button{
+        width:480px;
+        
+    }
+}
+
+/* footer */
+
+@media(min-width:300px) and (max-width: 500px) {
+    footer{
+        width: 550px;
+       font-size: 12px;
+    }
+}
+
+
+
+
+
+/* navbar */
+@media (min-width:700px) and (max-width: 900px) {
+    .nav-bar {
+        width: 800px;
+       font-size: 15px;
+    }
+}
+/* hr */
+@media (min-width:700px) and (max-width:900px){
+    .hr{
+        width: 610px;
+    }
+}
+
+/* sections */
+
+/* .About-Me */
+@media (min-width:700px) and (max-width:900px) {
+    .About-Me{ width: 650px;
+        height: 380px;
+        margin-left: 75px;
+        font-size: 13px;
+
+    }
+}
+ /* projects  */
+@media (min-width:700px) and (max-width:900px){
+    .projects{
+        width: 650px;
+        height: 300px;
+        margin-left: 75px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width:700px) and (max-width:900px){
+    .table{
+        width:610px ;
+    }
+}
+/* .skills */
+
+@media (min-width:700px) and (max-width:900px){
+    .skills {
+        width: 650px;
+        height: 250px;
+        margin-left: 75px;
+        font-size: 13px;
+    }
+}
+
+/* .experinces */
+
+@media (min-width:700px) and (max-width:900px){
+    .experinces{
+        width: 650px;
+        height: 350px;
+        margin-left: 75px;
+        font-size: 13px;
+    }
+}
+
+/* .contact */
+@media (min-width:700px) and (max-width:900px){
+    .contact{
+        width: 520px;
+        height: 450px;
+        margin-left: 75px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width:700px) and (max-width:900px){
+    input, textarea{
+        width: 605px;
+    }
+}
+
+@media (min-width:700px) and  (max-width:900px){
+    .button{
+        width: 610px;
+        
+    }
+}
+
+/* footer */
+
+@media(min-width:700px) and (max-width: 900px) {
+    footer{
+        width: 800px;
+       font-size: 15px;
+    }
+}
+.error-message{
+    margin-left: 20px;
+}
+
+
+/* menu button */
+
+
+
+/* General Styles */
+body {
+    background-color: #e5e5e5;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #2c3e4e;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-btn {
+    display: none;
+    background-color: #2c3e4e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#nav-links {
+    display: flex;
+}
+
+.nav-list {
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .menu-btn {
+        display: inline-block;
+        position: absolute;
+        left: 11px;
+        font-size: 18px;
+    }
+  
+
+    #nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #2c3e4e;
+        position: absolute;
+        top: 50px;
+        left: 0px;
+
+    }
+
+    #nav-links.active {
+        display: flex;
+        margin-left: 0px;
+        width: 230px;
+        z-index: 1;
+        
+
+    }
+
+    .nav-list {
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+}
+

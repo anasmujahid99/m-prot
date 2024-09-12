@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<body>
+       <nav class="nav-bar">
+        
+        <button id="menu-btn" class="menu-btn">Menu</button>
+        <div id="nav-links">
+        <a href="#About" class="nav-list"><b>About</b></a>
+        <a href="#Projects" class="nav-list"><b>Projects</b></a>
+        <a href="#Skills" class="nav-list"> <b>Skills</b></a>
+        <a href="#experinces" class="nav-list"><b>Experinces</b></a>
+        <a href="#contact" class="nav-list" id="err-cont"><b>Contact</b></a>
+        </div>
+        
+    </nav>
+  
+     <div class="About-Me">
+    <section id="About">
+         <h1>About Me</h1>
+         <div class="hr"></div>
+
+         <div id="img-des">
+         <img src="anas.jpg" alt="my-Pic" >
+       
+         
+         <p id="descprition">
+            Hello I am Anas, I am a student of class 1st year. I like web development very much, so I have completed HTML, and CSS. <span id="more-text" style="display: none;">
+                One of my favorite hobbies is exploring the vast world of the internet. I love diving into new websites, discovering hidden gems of information, and learning about topics I never knew existed. Whether it's reading up on the latest tech trends, exploring online forums, or watching educational videos, there's always something new and exciting to uncover. Internet exploring allows me to stay informed, connect with people from around the globe, and satisfy my curiosity about the world.
+            </span>
+        </p>
+        
+        <button id="toggle-btn">Show More</button>
+        
+        </div>
+    </section>
+</div>
+
+<!-- projects -->
+
+<div class="projects" >
+    <section id="Projects"> 
+        <h1>Projects</h1>
+        <div class="hr"></div>
+<table class="table" >
+   
+<tr style="background-color: #29404c; color: white;">
+<td>Projects</td>
+<td>Descprition</td>
+<td>Link</td>
+</tr>
+
+<tr style="background-color: #f8f8f7;">
+    <td >Protfolio</td>
+    <td>It represent my practices.</td>
+    <td><a href="https://anasmujahi.github.io/protfolio/" target="main" class="links"> Vist Here</a></td>
+
+</tr>
+
+<tr style="background-color: #ffffff;">
+    <td>Protfolio</td>
+    <td>It represent my practices.</td>
+    <td><a href="https://anasmujahi.github.io/protfolio/" target="main" class="links"> Vist Here</a></td>
+
+</tr>
+<tr style="background-color: #f8f8f7;">
+    <td>Protfolio</td>
+    <td>It represent my practices.</td>
+<td><a href="https://anasmujahi.github.io/protfolio/" target="main" class="links"> Vist Here</a></td>
+
+</tr>
+</table>
+    </section>
+</div>
+
+<!-- SKILS -->
+
+<div class="skills">
+    <section id="Skills">
+        <h1>Skills</h1>
+        <div class="hr"></div>
+        <p class="sp">HTML</p>
+        <P class="sp">CSS</P>
+
+        <p class="sp">Proficiency Levels:</p>
+        <li  class="skillsli">HTML 
+
+            <progress value="90" max="100"></progress>
+        
+        </li> 
+
+    <li class="skillsli" >CSS  
+
+        <progress value="91" max="100"> </progress>
+
+    </li>
+
+    </section>
+</div>
+
+<!-- Experinces -->
+
+<div class="experinces">
+    <section id="experinces">
+        <h1>Experinces</h1>
+        <div class="hr"></div>
+        
+        <h4 class="hp1">Web Designer </h4>
+        <p class="hp2">- CreativeWave Solutions (2018 - 2020)
+        </p>
+        <p class="hp3">At CreativeWave Solutions, the Web Designer role involved creating visually appealing and user-friendly website layouts for a diverse range of clients. Responsibilities included collaborating with clients to understand their brand identity, designing responsive websites using HTML, CSS.</p>
+  
+        <h4 class="hp1">UX Designer </h4>
+        <p class="hp2">- PixelPerfect Studios (2021 - 2022)
+        </p>
+        <p class="hp3">As a UI/UX Designer at PixelPerfect Studios, the focus is on designing intuitive and engaging interfaces for web and mobile applications. The role encompasses conducting user research, creating wireframes and prototypes, and performing usability testing to refine designs. Collaborating with cross-functional teams, the designer ensures that the final products meet both user needs and business goals, while maintaining consistency with the company's design standards and guidelines.</p>
+    </section>
+</div>
+
+<!-- Contact -->
+
+<div class="contact">
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <div class="hr"></div>
+        <form id="contactForm" action="anas.php">
+            <p class="input">Name:</p>
+            <input type="text" id="name" name="name">
+            <small class="error-message" id="nameError"></small>
+        
+            <p class="input">Email:</p>
+            <input type="email" id="email" name="email">
+            <small class="error-message" id="emailError"></small>
+        
+            <p class="input">Message</p>
+            <textarea id="message" name="message"></textarea>
+        
+            <button type="submit" class="button">Submit</button>
+        </form>
+        
+        
+    </section>
+</div>
+<footer><p style="padding-top: 25px ;">© 2024 anas mujahid all right reserved</p>
+    <p >Contact with me on <a href="https://www.linkedin.com/in/anas-mujahid-218400324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="main" style="color:  #53b29c;">linkedin</a></p>
+
+</footer>
+
+
+
+
+
+</body>
+<script src="logic.js"></script>
+</html>
